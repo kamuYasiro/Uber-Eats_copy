@@ -187,3 +187,14 @@ footer a{
     width:90%;
   }
 }
+  @media(max-width:480px){
+    .first-view {
+    background-position-x: -750px;
+}
+    header .right{
+      display:none;
+    }
+    .contents{
+      width:auto;
+    }
+  }
