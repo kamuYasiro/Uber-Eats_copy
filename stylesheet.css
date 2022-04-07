@@ -31,15 +31,14 @@ header h2{
 }
 .right a{
   margin-left:10px;
+  cursor: inherit;
 }
 .signin{
   color:black;
 }
 .ja{
-  background-color:black;
-  color:white;
-  padding:8px;
-  border-radius:30px;
+  color:black;
+  font-weight:bold;
 }
 
 .first-view{
@@ -51,7 +50,7 @@ header h2{
   font-size:50px;
 }
 .first-view h1,.first-view p{
-  filter: drop-shadow(1px 1px 1px white);
+  color:white;
   margin-left:50px;
   font-weight:bold;
 }
@@ -74,6 +73,7 @@ header h2{
   font-size:36px;
   margin-left:20px;
   margin-top:0;
+  border-bottom: 2px solid black;
 }
 .boxs{
   display:flex;
